@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 *{
     margin: 0;
@@ -29,4 +30,135 @@ nav .cart span{
 
 nav .lang-switcher{
     margin-right: 20px;
+}
+
+
+
+/*LOKACIJE*/
+
+.lokacije{
+    background: url('assets/icons/lokacije-bg.svg');
+    background-position: center;
+}
+
+.lokacije h1{
+    margin-top: 80px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 55px;
+    letter-spacing: 0.18px;
+}
+
+.lokacije p{
+    font-family: 'Varela Round', sans-serif;
+    color:#333333;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    margin-bottom: 40px;
+}
+
+.breadcrumbs .breadcrumbs-active{
+    color: #999999;
+}
+
+.breadcrumbs span{
+    font-size: 12px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.lokacije-box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 1px 9px 0 rgba(0, 35, 64, 0.2);
+    
+}
+
+.image-box img{
+    width: 100%;
+}
+
+.lokacije-box .info-box{
+    padding: 38px 42px;
+}
+
+.lokacije-box .info-box .info-heading{
+    font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+    border-bottom: solid 1.2px #e7e7e7;
+    padding-bottom: 8px;
+}
+
+.lokacije-box .contact-box{
+    padding-top: 16px;
+}
+
+.lokacije-box .contact-box p{
+    font-size: 14px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.lokacije-box .contact-box span{
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+   
+}
+
+.lokacije-box .contact-box .contact-border{
+    border-bottom: 1px solid black;
+}
+
+.tabs-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tabs-group .tab{
+    font-size: 12.9px;
+    font-family: 'Secular One', sans-serif;
+    padding: 3px 8px 1px 7px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+
+.color-tab1{
+    background-color:#ffebf2;
+}
+.color-tab2{
+    background-color:#a3e8d6;
+}
+.color-tab3{
+    background-color:#fcfa96;
+}
+
+.color-tab4{
+    background-color:#e0c5ec;
+}
+
+
+.box{
+    text-align: right;
+    position: relative;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+.box::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13px;
+    border-top: 1px dashed #ddd;
+}
+
+.box .text{
+    font-size: 11px!important;
+    line-height: 1.64;
+    background-color: #fff;
+    color: #999;
+    display: inline-block;
+    z-index: 9;
+    padding-left: 2px;
+    position: relative;
 }

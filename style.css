@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ffebf2!important;
+    font-family: 'Secular One', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black!important;
+}
+
+nav .lang-switcher .lang-active{
+    color: #f650a0;
+}
+
+nav .cart span{
+    color: #f650a0;
+}
+
+.navbar-expand-lg .navbar-nav{
+    margin: 0 auto;
+}
+
+nav .lang-switcher{
+    margin-right: 20px;
+}

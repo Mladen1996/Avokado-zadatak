@@ -38,7 +38,7 @@ nav .lang-switcher{
 
 .lokacije{
     background: url('assets/icons/lokacije-bg.svg');
-    background-position: center;
+    background-position: 0% 115%;
 }
 
 .lokacije h1{
@@ -167,7 +167,7 @@ nav .lang-switcher{
 .uskoro{
     background: url('assets/images/uskoro3.svg');
     margin-top: 100px;
-    margin-bottom: 100px;
+  
     background-repeat: no-repeat;
 }
 
@@ -179,12 +179,19 @@ nav .lang-switcher{
 .uskoro h2{
     font-size: 45px;
     color: white;
+    margin-left: 67px;
 }
 
 .gallery{
     margin-bottom: 100px;
 }
 
+.gallery-bg{
+    background: url('assets/icons/lokacije-bg.svg');
+    padding-top: 100px;
+    padding-bottom: 134px;
+    background-position: 0% 200%;
+}
 .gallery h2{
     text-align: center;
     font-size: 35px;
@@ -194,7 +201,7 @@ nav .lang-switcher{
     text-align: center;
     color: #666666;
     font-family: 'Varela Round', sans-serif;
-    margin-bottom: 134px;
+   
 }
 
 .gallery p a{
@@ -213,7 +220,9 @@ nav .lang-switcher{
     padding-right: 0px!important;
 }
 
-
+.gallery .col-md-3 img{
+    margin-bottom: 19px;
+}
 .pre-footer{
     margin-bottom: 100px;
 }

@@ -240,6 +240,11 @@ nav .lang-switcher{
     object-fit: cover;
 }
 
+.gallery .col-md-1
+{
+    
+    padding-right: 0px!important;
+}
 
 
 .pre-footer{

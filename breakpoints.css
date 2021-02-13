@@ -1,5 +1,14 @@
 
-
+@media only screen and (min-width: 1500px) {
+    footer #footer-krofna{
+        right: 0%;
+    }
+    footer #footer-path-2{
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .gallery .col-md-1,.gallery .col-md-4
@@ -19,12 +28,16 @@
 
 .lokacije{
     background: url('assets/icons/lokacije-bg.svg');
-    background-position: 0% 115%;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .gallery-bg{
     background: url('assets/icons/lokacije-bg.svg');
-    background-position: 0% 200%;
+    background-position: 0% 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
 }
 }
 

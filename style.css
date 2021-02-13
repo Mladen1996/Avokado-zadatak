@@ -188,7 +188,9 @@ nav .lang-switcher{
    /* background-repeat: no-repeat;*/
 }
 
-
+.uskoro .left-image img, .uskoro .right-image img{
+    width: 100%;
+}
 
 .uskoro .second-img{
     margin-top: 150px;
@@ -235,7 +237,7 @@ nav .lang-switcher{
     width: 100%;
     height: fit-content;
     margin-bottom: 15px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
@@ -371,6 +373,7 @@ footer .prijava-za-posao{
     color: #f454a0;
     font-size: 14px;
     font-family: 'Varela Round', sans-serif;
+    z-index: 5;
 }
 
 footer .prijava-za-posao button{
@@ -393,7 +396,7 @@ footer .copyright{
 
 footer #footer-krofna{
     position: absolute;
-    right: -100px;
+    right: -7%; /*-100px*/
     bottom: 0;
     z-index: 5;
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 768px) {
     .gallery .col-md-1,.gallery .col-md-4
 {
     padding-left: 0px!important;
@@ -18,7 +18,15 @@
     background: url('assets/icons/lokacije-bg.svg');
     background-position: 0% 200%;
 }
+}
+
+
+  @media only screen and (max-width: 1024px) {
+    .uskoro .second-img{
+        margin-top: 100%;
+    }
   }
+
 
   @media only screen and (max-width: 991px) {
 
@@ -45,6 +53,9 @@
     }
     .bg-container .mobile-container{
         min-height:400px;
+    }
+    .uskoro .left-image, .uskoro .right-image{
+        display: none;
     }
     .uskoro h2{
         font-size: 30px;

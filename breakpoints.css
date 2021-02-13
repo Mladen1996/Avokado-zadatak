@@ -1,5 +1,6 @@
 
 @media only screen and (min-width: 1500px) {
+    /*footer*/
     footer #footer-krofna{
         right: 0%;
     }
@@ -11,6 +12,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+    /*sekcija sa galerijom slika*/
     .gallery .col-md-1,.gallery .col-md-4
     {
         padding-left: 0px!important;
@@ -22,10 +24,15 @@
     }
 
     
+    .gallery-bg{
+        background: url('assets/icons/lokacije-bg.svg');
+        background-position: 0% 100%;
+        background-repeat:no-repeat ;
+        background-size: cover;
+    }
 
 
-
-
+/*sekcija lokacije*/
 .lokacije{
     background: url('assets/icons/lokacije-bg.svg');
     background-position: 0% 70%;
@@ -33,21 +40,18 @@
     background-size: cover;
 }
 
-.gallery-bg{
-    background: url('assets/icons/lokacije-bg.svg');
-    background-position: 0% 100%;
-    background-repeat:no-repeat ;
-    background-size: cover;
-}
+
 }
 
 @media only screen and (min-width: 991px) {
+    /*navigacija*/
     .cart-icon{
         display: none!important;
     }
 }
 
   @media only screen and (max-width: 1024px) {
+      /*sekcija uskoro*/
     .uskoro .second-img{
         margin-top: 100%;
     }
@@ -55,16 +59,13 @@
 
 
   @media only screen and (max-width: 991px) {
+    
+    /*navigacija*/
     .navbar-expand-lg .navbar-nav {
-        margin-right: 30px!important;
+        margin-right: 20px!important;
     }
     .cart{
         display: none;
-    }
-
-    .gallery .col-4:last-child{
-        padding-left: 0px!important;
-        padding-right: 15px!important;
     }
 
     
@@ -72,6 +73,23 @@
         border: none;
        
     }
+
+    .navbar-right {
+        float: right;
+    }
+    .nav.navbar-nav.navbar-right ul {
+        float: right;
+    }
+    .nav.navbar-nav.navbar-right li {
+        float: left;
+    }
+    
+    /*sekcija lokacije*/
+    .lokacije-box iframe{
+        height: 250px;
+    }
+
+    /*sekcija uskoro*/
     .bg-container::before{
         height:250px;
         width: auto;
@@ -94,25 +112,19 @@
       display: none;
   }
 
+  /*sekcija sa galerijom slika*/
+  .gallery .col-4:last-child{
+    padding-left: 0px!important;
+    padding-right: 15px!important;
+}
   
-  .navbar-right {
-    float: right;
-}
-.nav.navbar-nav.navbar-right ul {
-    float: right;
-}
-.nav.navbar-nav.navbar-right li {
-    float: left;
-}
-
+ /*footer*/
   footer .footer-info img{
       display: block;
   }
 
-  .lokacije-box iframe{
-      height: 250px;
-  }
-
+  
+  /*sekcija pre footera*/
   .pre-footer .box1{
       flex-wrap: wrap;
   }
@@ -125,6 +137,7 @@
 
   @media only screen and (max-width: 767px) {
 
+    /*sekcija sa galerijom slika*/
     
     .gallery .two-image-box img{
         object-fit: contain;

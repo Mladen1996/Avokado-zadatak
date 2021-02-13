@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+
+/*navigacija*/
 header{
     background-color: #ffebf2!important;
     font-family: 'Secular One', sans-serif;
@@ -24,6 +26,10 @@ nav .cart span, nav .cart-icon span{
     color: #f650a0;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #f650a0!important;
+}
+
 .navbar-expand-lg .navbar-nav{
     margin: 0 auto;
 }
@@ -34,7 +40,7 @@ nav .lang-switcher{
 
 
 
-/*LOKACIJE*/
+/*sekcija lokacije*/
 
 
 
@@ -181,11 +187,13 @@ nav .lang-switcher{
     z-index: -1;
 }
 
+
+/* sekcija uskoro*/
+
+
 .uskoro{
-    /*background: url('assets/images/uskoro3.svg');*/
     margin-top: 100px;
   
-   /* background-repeat: no-repeat;*/
 }
 
 .uskoro .left-image img, .uskoro .right-image img{
@@ -208,6 +216,8 @@ nav .lang-switcher{
     color: #ffebf2;
 }
 
+
+/* sekcija sa galerijom slika*/
 .gallery{
     margin-bottom: 100px;
 }
@@ -250,6 +260,8 @@ nav .lang-switcher{
     margin-bottom: 19px;
 }
 
+
+/* sekcija pre footera*/
 .pre-footer{
     margin-bottom: 100px;
 }
@@ -316,10 +328,24 @@ nav .lang-switcher{
     padding: 5px 21px 5px 21px;
   border-radius: 1.9px;
   height: 30px;
-  color: white;
   font-size: 14px;
   font-family: 'Secular One', sans-serif;
   border: none;
+}
+.pre-footer button a{ 
+    color: white;
+    text-decoration: none;
+}
+
+.pre-footer button:hover{
+    background-color: white;
+    
+    border: 1px solid #f454a0;
+    
+}
+
+.pre-footer button:hover a{
+    color: #f454a0;
 }
 
 .pre-footer .ketering h5{
@@ -330,6 +356,8 @@ nav .lang-switcher{
     margin-bottom: 12px;
 }
 
+
+/*footer*/
 
 footer{
     background-color: #ffebf2;
@@ -371,6 +399,14 @@ footer .footer-menu li{
     margin-bottom: 8px;
 }
 
+footer .footer-menu li a, footer .posts li a{
+    color: black;
+    text-decoration: none;
+}
+footer .footer-menu li a:hover, footer .posts li a:hover{
+    color: #f454a0;
+}
+
 footer .posts li{
     font-family: 'Varela Round', sans-serif;
     font-size: 14px;
@@ -389,10 +425,26 @@ footer .prijava-za-posao button{
     padding: 5px 21px 5px 21px;
   border-radius: 1.9px;
   height: 30px;
-  color: white;
+ 
   font-size: 14px;
   font-family: 'Secular One', sans-serif;
   border: none;
+}
+
+footer .prijava-za-posao button a{ 
+    color: white;
+    text-decoration: none;
+}
+
+footer .prijava-za-posao button:hover{
+    background-color: white;
+    
+    border: 1px solid #f454a0;
+    
+}
+
+footer .prijava-za-posao button:hover a{
+    color: #f454a0;
 }
 
 footer .copyright{

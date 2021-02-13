@@ -20,7 +20,7 @@ nav .lang-switcher .lang-active{
     color: #f650a0;
 }
 
-nav .cart span{
+nav .cart span, nav .cart-icon span{
     color: #f650a0;
 }
 

@@ -1,3 +1,6 @@
+
+
+
 @media only screen and (min-width: 768px) {
     .gallery .col-md-1,.gallery .col-md-4
 {
@@ -20,6 +23,11 @@
 }
 }
 
+@media only screen and (min-width: 991px) {
+    .cart-icon{
+        display: none!important;
+    }
+}
 
   @media only screen and (max-width: 1024px) {
     .uskoro .second-img{
@@ -30,20 +38,35 @@
 
   @media only screen and (max-width: 991px) {
 
-    .navbar{
-        flex-direction: row-reverse;
-        padding-left: 0px!important;
-        padding-right: 0px!important;
+    .cart{
+        display: none;
+    }
+   /* .navbar-light .navbar-toggler {
+        order: 1;
     }
 
     .navbar-light .navbar-brand {
+        order: 2;
+    }
+
+    .navbar-right{
+        order: 3;
+        margin-right: 0px!important;
+    }*/
+
+   /* .navbar{
+       
+        padding-left: 0px!important;
+        
+    }*/
+
+   /* .navbar-light .navbar-brand {
         margin: 0 auto;
    display: table;
-    }
+    }*/
     .navbar-light .navbar-toggler{
         border: none;
-        padding-left: 0px!important;
-        padding-right: 0px!important;
+       
     }
     .bg-container::before{
         height:250px;
@@ -66,6 +89,17 @@
   .uskoro img, footer img{
       display: none;
   }
+
+  
+  .navbar-right {
+    float: right;
+}
+.nav.navbar-nav.navbar-right ul {
+    float: right;
+}
+.nav.navbar-nav.navbar-right li {
+    float: left;
+}
 
   footer .footer-info img{
       display: block;

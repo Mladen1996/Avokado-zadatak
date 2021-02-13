@@ -246,6 +246,9 @@ nav .lang-switcher{
     padding-right: 0px!important;
 }
 
+.gallery .col-md-3 img{
+    margin-bottom: 19px;
+}
 
 .pre-footer{
     margin-bottom: 100px;

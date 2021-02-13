@@ -15,9 +15,7 @@
     
 
 
-.gallery .col-md-3 img{
-    margin-bottom: 19px;
-}
+
 
 .lokacije{
     background: url('assets/icons/lokacije-bg.svg');
@@ -47,6 +45,11 @@
 
     .cart{
         display: none;
+    }
+
+    .gallery .col-4:last-child{
+        padding-left: 0px!important;
+        padding-right: 15px!important;
     }
 
     .gallery .two-image-box img{

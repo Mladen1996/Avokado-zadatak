@@ -235,6 +235,7 @@ nav .lang-switcher{
     width: 100%;
     height: fit-content;
     margin-bottom: 15px;
+    object-fit: contain;
 }
 
 
